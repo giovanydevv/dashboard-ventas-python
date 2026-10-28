@@ -1,0 +1,11 @@
+__pycache__/
+.venv/
+venv/
+.pytest_cache/
+reports/*.xlsx
+!reports/ejemplo_reporte_ventas.xlsx
+~$*.xlsx
+
+# Datos generados por main.py (se recrean al ejecutarlo)
+data/processed/*.csv
+data/model/
